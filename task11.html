@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-11</title>
+    <style>
+        .image{
+            width: 50%;
+            margin-left: 45%;
+        }
+        img{
+            border-radius: 50%;
+        }
+        form{
+            margin-top: 30px;
+            margin-left: 38%;
+        }
+        .container{
+            border: 2px solid gainsboro;
+            width: 50.9%;
+            height: 40px;
+            background-color: gainsboro;
+        }
+        .common{
+            width: 50%;
+        }
+        .can{
+            margin-top: 2.5%;
+            margin-left: 5px;
+            position: relative;
+        }
+        .but{
+            background-color: red;
+            color: whitesmoke;
+        }
+        .pass{
+            margin-left: 75%;
+            margin-top: -20px;
+            position: relative;
+        }
+        .lgbtn{
+            width: 50.9%;
+            background-color: rgb(13, 150, 13);
+            color: whitesmoke;
+            border-top-color: rgb(13, 150, 13);
+            border-left-color: rgb(13, 150, 13);
+            border-right-color: rgb(13, 150, 13);
+            border-bottom-color: rgb(13, 150, 13);
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="./newpic.jpg" alt="Image of Samarth Patel" width="200" >
+    </div>
+    <form>
+        <label for="username">Username</label>
+        <br>
+        <input type="text" name="username" placeholder="Enter Username" class="common">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" placeholder="Enter Password" class="common">
+        <br>
+        <br>
+        <input type="submit" value="Login" class="lgbtn">
+        <br>
+        <br>
+        <input type="checkbox" name="remmberme">
+        <label for="remmberme">Remmber me</label>
+        <br>
+        <br>
+        <div class="container">
+            <div class="can">
+                <input type="submit" value="Cancel" class="but">
+                <div>
+                    <p class="pass">Forgot <a href="#">password?</a></p>
+                </div>  
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>
